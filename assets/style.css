@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+	#content,
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+	aside{
+		margin: 10px 10px !important;
+	}
+	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+	display: inline;
+}
+
+header .judul{
+	color: azure;
+	padding: 40px;
+	background-color: #A52A2A;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	
+}
+
+.judul p{
+	font-style: italic;
+	color: rgb(182, 245, 9);
+}
+
+nav{
+	background-color: blanchedalmond;
+	margin: 0;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav ul li{
+	display: inline;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #A52A2A;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+nav ul li a:hover{
+	font-weight: bold;
+	color: #1E90FF;
+}
+
+body{
+	background-color: rgba(0,0,0,0.1);
+}
+
+main{
+	display: flex;
+}
+
+#content{
+	text-indent: 20px;
+	flex-basis: 75%;
+	background-color: white;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 15px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+#content .gambar{
+	text-align: center;
+}
+
+h3{
+	color: blue;
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+}
+
+aside{
+	flex-basis: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #A52A2A;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	margin: 100px 5px;
+	padding: 8px;
+	height: 275px;
+}
+
+.profile{
+	width: 100px;
+	text-align: center;
+}
+
+aside table{
+	text-align: left;
+	
+	
+}
+
+footer{
+	background-color: #A52A2A;
+	padding: 10px;
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+footer a:hover{
+	text-decoration: underline;
+	color: black;
+}
